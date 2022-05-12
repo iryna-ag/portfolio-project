@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #15b4a7;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -34,13 +34,13 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 86px;
   line-height: 1.5;
   text-align: center;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 55px;
 }
 
 p {
@@ -53,6 +53,8 @@ p {
   background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
+  font-family: cursive;
+  font-style: italic;
 }
 
 .hero p {
@@ -154,7 +156,7 @@ footer .social-links a {
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 34px;
   }
 
   .hero {
@@ -183,6 +185,8 @@ p {
 .about-section h1 {
   font-size: 64px;
   line-height: 80px;
+  font-family: cursive;
+  font-style: italic;
 }
 
 .mb-4 {
@@ -216,8 +220,10 @@ p {
   margin: 30px;
 }
 .content h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 58px;
+  line-height: 60px;
+  font-family: cursive;
+  font-style: italic;
 }
 .content h3,
 h4 {
