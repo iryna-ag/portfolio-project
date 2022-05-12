@@ -23,7 +23,6 @@ nav li {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -41,6 +40,8 @@ h1 {
 
 h2 {
   font-size: 55px;
+  font-family: var(--heading-font-family);
+  font-weight: normal;
 }
 
 p {
@@ -112,41 +113,35 @@ footer .contact-box {
   padding: 120px 60px;
 }
 
-@media (max-width: 900px) h4 {
-  font-size: 26px;
-}
-footer .contact-box p {
-  margin: 0;
-}
-.text-muted {
-  color: #6c757d !important;
-}
-footer .contact-box {
-  background: var(--secondary-color);
-  padding: 30px 120px;
-  border-radius: 10px;
-}
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-footer .social-links a {
-  margin: 0 20px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
-  padding: 10px 14px;
-  border-radius: 50%;
-  font-size: 18px;
-  transition: all 100ms ease-in-out;
-}
-.fab,
-.far {
-  font-weight: 400;
-}
-
-.fab {
-  font-family: "Font Awesome 5 Brands";
+@media (max-width: 900px) {
+  h4 {
+    font-size: 26px;
+  }
+  footer .contact-box p {
+    margin: 0;
+  }
+  .text-muted {
+    color: #6c757d !important;
+  }
+  footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+  }
+  footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+  }
+  footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+  }
 }
 
 @media (max-width: 900px) {
@@ -171,7 +166,6 @@ footer .social-links a {
 
 .mb-5 {
   margin-bottom: 3rem !important;
-  text-align: center;
 }
 p {
   font-weight: normal;
@@ -183,7 +177,7 @@ p {
   margin: 80px;
 }
 .about-section h1 {
-  font-size: 64px;
+  font-size: 55px;
   line-height: 80px;
   font-family: cursive;
   font-style: italic;
